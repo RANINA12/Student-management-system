@@ -1,0 +1,121 @@
+/* result.css */
+
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(to bottom, #f0f4f7, #fff);
+  background-size: 100% 300px;
+  background-position: 0% 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.student-details {
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.student-details ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.student-details li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.student-details li:last-child {
+  border-bottom: none;
+}
+
+.student-details span {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.subject-details {
+  margin: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table thead {
+  background-color: #333;
+  color: #fff;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.result {
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.result .section-title {
+  margin-top: 0;
+}
+
+.result p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #337ab7;
+}
+.btn {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	text-decoration: none;
+	
+}
+.btn{
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	text-decoration: none;
+	align-content: center;
+}

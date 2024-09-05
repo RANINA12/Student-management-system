@@ -1,0 +1,119 @@
+@charset "ISO-8859-1";
+/* courseList.css */
+
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+	background-color: #3d769c; /* Blue shade */
+	height: 80px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+	height: 60px;
+	margin: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+caption {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+}
+
+.blue-btn {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.blue-btn:hover {
+  background-color: #3e8e41;
+}
+
+#red-btn {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#red-btn:hover {
+  background-color: #cc0000;
+}
+
+/* Add some spacing between elements */
+td {
+  padding: 10px;
+}
+
+/* Make the table responsive */
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* Add some style to the links */
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a:hover {
+  color: #23527c;
+}
+.logout{
+		background-color: #800000;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	text-decoration: none;
+}
+.logout:hover {
+	background-color: #ff0000;
